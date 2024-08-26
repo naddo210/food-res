@@ -44,7 +44,7 @@ const StoreContextProvider = (props) => {
     return totalAmount;
   };
   const fetchFoodList = async () => {
-    const response = await axios.get(url + "/api/food/list");
+    const response = await axios.get("https://food-res.onrender.com/api/food/list");
     setfood_list(response.data.data);
   };
   const loadCartData = async (token) => {
