@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Great+Vibes&family=Mooli&family=Neucha&family=Oleo+Script:wght@400;700&family=Outfit:wght@100..900&family=Pacifico&family=Permanent+Marker&family=Playwrite+IT+Moderna:wght@100..400&display=swap');
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 4%; 
+}
+.navbar p{
+    margin-top: 30px;
+    font-size: 20px;
+    text-decoration-line: underline;
+
+}
+.navbar .logo{
+    width: max(10%,80px);
+    font-family: "Great Vibes", cursive;
+}
+.navbar .profile{
+    width: 40px;
+}
+@media (max-width: 768px){
+    .navbar p{
+        display: none;
+    }
+    .navbar .logo{
+        width: 100%;
+    }
+    
+}
